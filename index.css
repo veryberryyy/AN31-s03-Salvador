@@ -1,0 +1,25 @@
+* { /*this is called reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+nav {
+	border-bottom: 1px solid black;
+	padding: 5px;
+}
+.navbar {
+	display: inline-block;
+}
+.navbar ul { /*.class*/
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.navbar a::after {
+	display: inline-block;
+	color: #000;
+	content: '>'; /*separation*/
+	font-size: 80%; /*sumasabay yung font sa browser size*/
+	font-weight: bold;
+	padding: 0 3px;
+}
